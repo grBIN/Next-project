@@ -1,0 +1,51 @@
+.burger-btn{
+    //Сброс стилей для кнопок и ссылок
+    @include btn-reset;
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 30px;
+
+    //Рисуем линии в обычном состоянии
+    &__line,
+    &__line::before,
+    &__line::after{
+        position: absolute;
+        width: 30px;
+        height: 2px;
+        background-color: #fff;
+        left: 0;
+    }
+    &__line::before,
+    &__line::after{
+        content: "";
+        transition: 0.3s;
+    }
+    //Выравниваем по высоте
+    &__line{
+        top: calc(50% - 1px);
+    }
+    &__line::before{
+        top: -10px;
+    }
+    &__line::after{
+        top: 10px;
+    }
+
+    // Модификатор для КНОПКИ! burger-btn--close
+    &--close &__line {
+        width: 0;
+    }
+
+    &--close &__line::before {
+        transform:  rotate(45deg);
+        top:0;
+        left: 0;
+    }
+
+    &--close &__line::after {
+        transform:  rotate(-45deg);
+        top:0;
+        left: 0;
+    }
+}
