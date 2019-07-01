@@ -1,0 +1,30 @@
+//TODO - Заменить на спрайты.
+
+.social{
+    width: 100%;
+    
+    &__link{
+        display: inline-block;
+        color: $bg-light;
+        width: 30px;
+        height: 30px;
+        font-size: 0px;
+        margin-right: 20px;
+        background-color: #fff;
+        opacity: .2;
+
+        &:hover{
+            opacity: .5;
+        }
+        
+        &--inst{
+            background: url(../img/inst.svg);
+        }
+        &--vk{
+            background: url(../img/vk.svg);
+        }
+        &--fb{
+            background: url(../img/fb.svg);
+        }
+    }
+}

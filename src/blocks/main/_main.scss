@@ -1,0 +1,22 @@
+.main {
+    &__1st-screen{
+        height: calc(100vh - 70px);
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: gray url(../img/1923.png) center no-repeat;
+        background-size: cover;
+
+
+            @include lg-block {
+                height: 100vh;
+            }
+        }
+        
+    //MAIN LG
+    @include lg-block {
+        margin-left: 298px;
+        width: calc(100% - 298px);
+    }
+}

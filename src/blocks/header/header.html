@@ -1,3 +1,60 @@
 <header class="page-header">
-    @@include("../burger-btn/burger-btn.html")
+    <div class="page-header__inner">
+
+        <!-- burger-btn -->
+        <button class="page-header__burger-btn burger-btn">
+            <span class="burger-btn__text visually-hidden">Menu</span>
+            <span class="burger-btn__line burger-btn__line"></span>
+        </button>
+
+
+        <!-- Logo -->
+        <div class="page-header__logo logo">
+            <a href="#" class="logo__link">
+                <img class="logo__img" src="img/logo.svg" alt="Logo" width="30" height="30">
+                <div class="logo__text">
+                        <div class="logo__inner">
+                            <img class="logo__techno" src="img/techno.svg" alt="Techno" width="72" height="14">
+                            <img class="logo__polis" src="img/polis.svg" alt="Polis" width="65" height="14">
+                        </div>
+                        <img class="logo__industrial" src="img/industrial.svg" alt="Индустриальный парк" width="72" height="7">
+                </div>
+            </a>
+        </div>
+
+
+        <!-- burger-menu -->
+        <div class="page-header__burger-menu burger-menu">
+
+            <nav class="burger-menu__nav">
+                <ul class="burger-menu__list">
+                    <li class="burger-menu__item"><a href="#" class="link main-nav__link">О комплексе</a></li>
+                    <li class="burger-menu__item"><a href="#" class="link main-nav__link">Местоположение</a></li>
+                    <li class="burger-menu__item"><a href="#" class="link main-nav__link">Инфраструктура</a></li>
+                    <li class="burger-menu__item"><a href="#" class="link main-nav__link">Сервис и льготы</a></li>
+                    <li class="burger-menu__item"><a href="#" class="link main-nav__link">Резиденты</a></li>
+                    <li class="burger-menu__item"><a href="#" class="link main-nav__link">Льготы</a></li>
+                    <li class="burger-menu__item"><a href="#" class="link main-nav__link">Контакты</a></li>
+                </ul>
+            </nav>
+
+            <button class="btn burger-menu__become-resident" href="#">Стать резидентом</button>
+
+            <a href="#" class="link burger-menu__watch-presentation">Смотреть презентацию</a>
+
+            <hr class="burger-menu__hr">
+
+            <a  class="link burger-menu__phone" href="tel:+79116930006">8 (911) 693-00-06</a>
+
+            <button class="link burger-menu__callback">Заказать обратный звонок</button>
+
+            <div class="burger-menu__social social">
+                <a href="#" class="social__link social__link--inst"><span class="social__icon">Instagram</span></a>
+                <a href="#" class="social__link social__link--vk"><span class="social__icon">Vk</span></a>
+                <a href="#" class="social__link social__link--fb"><span class="social__icon">Facebook</span></a>
+            </div>
+        </div>
+        <!-- END burger-menu -->  
+
+    </div>
 </header>

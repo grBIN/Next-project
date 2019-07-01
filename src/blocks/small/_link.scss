@@ -1,0 +1,25 @@
+.link {
+    //btn-reset
+    border: none;
+    padding: 0 0 2px;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: $bg-light;
+
+    border-bottom: 1px dashed rgba(255, 255, 255, .3);
+
+    &:hover{
+        color: $technogreen;
+        cursor: pointer;
+    }
+}

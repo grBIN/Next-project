@@ -1,6 +1,18 @@
-h1, h2, h3, h4, h5, h6, ul {
-    padding: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
     margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box; // 1
 }
 
 .container {
@@ -9,4 +21,9 @@ h1, h2, h3, h4, h5, h6, ul {
     @include md(max-width, 690px);
     @include lg(max-width, 930px);
     @include xl(max-width, 1110px);
+}
+
+body {
+  display: flex;
+  flex-flow: column nowrap;
 }

@@ -1,3 +1,13 @@
-@import "header/header";
+@import "small/btn";
+@import "small/link";
+@import "logo/logo";
+@import "social/social";
+
+@import "small/visually-hidden";
+
 @import "footer/footer";
-@import "burger-btn/burger-btn";
+@import "main/main";
+
+@import "header/header";
+@import "header/burger-btn/burger-btn";
+@import "header/burger-menu/burger-menu";

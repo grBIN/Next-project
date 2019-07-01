@@ -1,0 +1,84 @@
+.burger-menu {
+
+    //Navigation
+    &__nav {
+        display: block;
+        color: $bg-light;
+    }
+
+    &__list {
+        list-style: none;
+    }
+
+    &__item {
+        margin-bottom: 30px;
+    }
+
+    //Стать резидентом
+    &__become-resident {
+        margin-bottom: 30px;
+    }
+
+    &__watch-presentation {
+        position: relative;
+        margin-left: 30px;
+
+        &::before {
+            content: '';
+            position: absolute;
+            width: 17px;
+            height: 20px;
+            left: -30px;
+            top: 0px;
+            background-image: url(../img/watchPresentationIcon.svg);
+            fill: green;
+        }
+    }
+    
+    // Разделитель
+    &__hr {
+        box-sizing: border-box;
+        width: 100%;
+        height: 1px;
+        background-color: #fff;
+        opacity: .3;
+        margin: 30px 0;
+    }
+
+    // Номер телефона
+    &__phone {
+        border-bottom: none;
+        margin-bottom: 10px;
+        font-family: Fira Sans;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 23px;
+        line-height: 28px;
+        letter-spacing: 0.03em;
+    }
+
+    //link Заказать обратный звонок
+    &__callback {
+        color: $technogreen;
+        border-bottom: 1px dashed rgba(110, 176, 59, .3); //$technogreen 0.3
+
+        &:hover {
+            color: #fff;
+        }
+    }
+    
+    // Блок соцсети
+    &__social {
+        margin-top: 20px;
+    }
+
+    //MEDIA
+    @include lg-block {
+        padding: 30px;
+        
+        &__list {
+            margin-top: 0px;
+        }
+    }
+}
+
