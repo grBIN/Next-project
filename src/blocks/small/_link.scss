@@ -14,12 +14,34 @@
     line-height: 24px;
     letter-spacing: 0.03em;
     text-decoration: none;
-    color: $bg-light;
 
+    color: white;
     border-bottom: 1px dashed rgba(255, 255, 255, .3);
 
     &:hover{
         color: $technogreen;
         cursor: pointer;
+    }
+
+    //modify technogreen
+
+    &--technogreen {
+        color: $technogreen;
+        border-color: $technogreen;
+    }
+    &--technogreen:hover{
+        color: white;
+        border-color: white;
+    }
+
+    //modify disabled
+
+    &--disabled {
+        color: $bg-dark;
+        border: none;
+    }
+    &--disabled:hover {
+        color: $bg-dark;
+        //убрать курсор палец.
     }
 }
