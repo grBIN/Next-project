@@ -1,5 +1,3 @@
-// TODO - добавить media
-
 .logo {
     &__link {
         text-decoration: none;
@@ -10,6 +8,7 @@
         margin-left: 10px;
         display: flex;
         flex-flow: column wrap;
+        justify-content: center;
     }
 
     &__svg--img {
@@ -23,15 +22,29 @@
         fill: $bg-light;
     }
 
-    &__svg--tecnopolis {
+    &__svg--techno {
         fill: $bg-light;
+        width: 140px;
     }
 
     &__svg--industrial {
         fill: $bg-light;
+        width: 72px;
     }
 
+
     // modify COLUMN
+    &--column &__svg--img {
+        width: 45px;
+        height: 45px;
+    }
+    &--column &__svg--techno {
+        width: 180px;
+    }
+    &--column &__svg--industrial {
+        width: 100px;
+    }
+
     &--column &__link {
         flex-flow: column wrap;
         align-items: center;
@@ -41,10 +54,40 @@
         align-items: center;
     }
 
+
     // modify DARK
     &--dark &__svg--img2,
-    &--dark &__svg--tecnopolis,
+    &--dark &__svg--techno,
     &--dark &__svg--industrial {
         fill: $bg-dark;
+    }
+
+    // MEDIA
+    @include md-block {
+        &__svg--img {
+            height: 40px;
+            width: 40px;
+        }
+        &__svg--techno {
+            width: 185px;
+            height: 19px;
+        }
+        &__svg--industrial {
+            width: 95px;
+            height: 10px;
+        }
+
+        &--column &__svg--img {
+            height: 55px;
+            width: 55px;
+        }
+        &--column &__svg--techno {
+            width: 211px;
+            height: 22px;
+        }
+        &--column &__svg--industrial {
+            width: 211px;
+            height: 13px;
+        }
     }
 }
