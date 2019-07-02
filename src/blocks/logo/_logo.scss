@@ -1,41 +1,50 @@
-// TODO - ПОМЕНЯТЬ ПРЯМ ВСЕ
+// TODO - добавить media
 
 .logo {
     &__link {
-        width: 100%;
+        text-decoration: none;
+        display: flex;
+    }
+
+    &__text {
+        margin-left: 10px;
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    &__svg--img {
+        width: 30px;
         height: 30px;
-        display: flex;
-        flex-flow: row nowrap;
-        align-items: center;
+    }
+    &__svg--img1 {
+        fill: $technogreen;
+    }
+    &__svg--img2 {
+        fill: $bg-light;
     }
 
-    &__inner {
-        display: flex;
-        flex-flow: row nowrap;
+    &__svg--tecnopolis {
+        fill: $bg-light;
+    }
+
+    &__svg--industrial {
+        fill: $bg-light;
+    }
+
+    // modify COLUMN
+    &--column &__link {
+        flex-flow: column wrap;
         align-items: center;
+    }
+    &--column &__text {
         margin-top: 10px;
-    }
-
-    &__techno {
-        margin-left: 8px;
-    }
-
-    &__industrial {
-        margin-left: 8px;
-    }
-    
-
-    &--ordered &__link {
-        flex-flow: column nowrap;
-        justify-content: center;
         align-items: center;
     }
 
-    &--ordered &__text {
-        margin-top: 7px;
-        display: flex;
-        flex-flow: column nowrap; 
-        justify-content: center;
-        align-items: center;
+    // modify DARK
+    &--dark &__svg--img2,
+    &--dark &__svg--tecnopolis,
+    &--dark &__svg--industrial {
+        fill: $bg-dark;
     }
-} 
+}
