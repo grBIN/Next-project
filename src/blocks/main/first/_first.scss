@@ -26,8 +26,94 @@
         font-style: normal;
         font-weight: 500;
         font-size: 34px;
-        line-height: 41px;
+        line-height: 1.1;
         text-align: center;
+        color: $bg-dark;
+
+        @include md-block {
+            font-size: 62px;
+        }
     }
 
+    &__language-change {
+        position: absolute;
+        top: 85px;
+        left: calc(50%-30px);
+
+        @include lg-block {
+            top: 35px;
+            right: 50px;
+        }
+    }
+
+    &__play-button {
+        margin-top: 30px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        position: relative;
+        opacity: .8;
+
+        @include md-block {
+            width: 80px;
+            height: 80px;
+        }
+    }
+    &__play-button:hover {
+        opacity: 1;
+    }
+
+    &__triangle {
+        position: absolute;
+        left: calc(50% - 5px);
+        top: calc(50% - 10px);
+        
+
+        @include md-block {
+            width: 26px;
+            height: 31px;
+            left: calc(50% - 9px);
+            top: calc(50% - 15px);
+            
+        }
+    }
+
+    &__watch-video {
+        margin-top: 10px;
+
+        @include md-block {
+            margin-top: 15px;
+        }
+    }
+
+    &__scroll-icon {
+        opacity: .6;
+        position: absolute;
+        bottom: 68px;
+        display: none;
+
+        @include lg-block {
+            display: inline-block;
+        }
+    }
+
+    &__scroll-text {
+        font-family: Noto Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 0.03em;
+
+        color: #37464D;
+        opacity: 0.6;
+        position: absolute;
+        bottom: 43px;
+        display: none;
+
+        @include lg-block {
+            display: inline-block;
+        }
+    }
 }

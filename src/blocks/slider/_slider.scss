@@ -1,0 +1,25 @@
+.slider {
+    max-width: 280px;
+
+    @include md-block {
+        max-width: 708px;
+    }
+
+    &__big-image {
+        max-height: 160px;
+        object-fit: cover;
+        @include md-block {
+            max-height: 400px;
+        }
+    }
+
+    &__nav {
+        display: flex;
+        justify-content: space-between;
+        flex-flow: row nowrap;
+    }
+    &__nav-image {
+        width: calc(20% - 10px);
+        // margin-right: 5px;
+    }
+}
