@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="isolation:isolate" viewBox="0 0 800 800" width="800pt" height="800pt">
+<defs><clipPath id="_clipPath_qifbm0wN7wMP0wSJs4z1Sl1FV1r6IPcM">
+<rect width="800" height="800"/>
+</clipPath></defs><g clip-path="url(#_clipPath_qifbm0wN7wMP0wSJs4z1Sl1FV1r6IPcM)">
+<polygon points="400,115.47,380,103.923,380,80.829,400,69.282,420,80.829,420,103.923" fill="rgb(90,147,244)"/>
+<polygon points="400,230.94,380,219.393,380,196.299,400,184.752,420,196.299,420,219.393" fill="rgb(90,147,244)"/>
+<polygon points="400,473.427,380,461.88,380,438.786,400,427.239,420,438.786,420,461.88" fill="rgb(90,147,244)"/>
+<polygon points="400,611.991,380,600.444,380,577.35,400,565.803,420,577.35,420,600.444" fill="rgb(90,147,244)"/>
+<polygon points="540,473.427,520,461.88,520,438.786,540,427.239,560,438.786,560,461.88" fill="rgb(90,147,244)"/>
+<polygon points="640,300.222,620,288.675,620,265.581,640,254.034,660,265.581,660,288.675" fill="rgb(90,147,244)"/>
+<polygon points="540,242.487,500,242.487,480,207.846,500,173.205,540,173.205,560,207.846" fill="rgb(74,134,232)"/>
+<polygon points="500,381.051,460,381.051,440,346.41,460,311.769,500,311.769,520,346.41" fill="rgb(74,134,232)"/>
+<polygon points="420,750.555,380,750.555,360,715.914,380,681.273,420,681.273,440,715.914" fill="rgb(74,134,232)"/>
+<polygon points="720,750.555,680,750.555,660,715.914,680,681.273,720,681.273,740,715.914" fill="rgb(74,134,232)"/>
+<polygon points="780,242.487,740,242.487,720,207.846,740,173.205,780,173.205,800,207.846" fill="rgb(74,134,232)"/>
+<polygon points="300,242.487,260,242.487,240,207.846,260,173.205,300,173.205,320,207.846" fill="rgb(74,134,232)"/>
+<polygon points="340,381.051,300,381.051,280,346.41,300,311.769,340,311.769,360,346.41" fill="rgb(74,134,232)"/>
+<polygon points="160,300.222,140,288.675,140,265.581,160,254.034,180,265.581,180,288.675" fill="rgb(90,147,244)"/>
+<polygon points="60,242.487,20,242.487,0,207.846,20,173.205,60,173.205,80,207.846" fill="rgb(74,134,232)"/>
+<polygon points="260,473.427,240,461.88,240,438.786,260,427.239,280,438.786,280,461.88" fill="rgb(90,147,244)"/>
+<polygon points="620,611.991,600,600.444,600,577.35,620,565.803,640,577.35,640,600.444" fill="rgb(90,147,244)"/>
+<polygon points="180,611.991,160,600.444,160,577.35,180,565.803,200,577.35,200,600.444" fill="rgb(90,147,244)"/>
+<polygon points="120,750.555,80,750.555,60,715.914,80,681.273,120,681.273,140,715.914" fill="rgb(74,134,232)"/>
+<line x1="400" y1="92.376" x2="400" y2="207.846" vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
+<line x1="400" y1="207.846" x2="520" y2="207.846" vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
+<line x1="400" y1="207.846" x2="280" y2="207.846" vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
+<line x1="280" y1="207.846" x2="160" y2="277.128" vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
+<line x1="160" y1="277.128" x2="40" y2="207.846" vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
+<line x1="520" y1="207.846" x2="640" y2="277.128" vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
+<line x1="640" y1="277.128" x2="760" y2="207.846" vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
+<line x1="400" y1="207.846" x2="480" y2="346.41" vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
+<line x1="400" y1="207.846" x2="320" y2="346.41" vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
+<line x1="320" y1="346.41" x2="260" y2="450.333" vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
+<line x1="480" y1="346.41" x2="540" y2="450.333" vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
+<line x1="540" y1="450.333" x2="400" y2="450.333" vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
+<line x1="260" y1="450.333" x2="400" y2="450.333" vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
+<line x1="400" y1="450.333" x2="400" y2="588.897" vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
+<line x1="400" y1="588.897" x2="400" y2="715.914" vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
+<line x1="540" y1="450.333" x2="620" y2="588.897" vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
+<line x1="640" y1="277.128" x2="620" y2="588.897" vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
+<line x1="260" y1="450.333" x2="180" y2="588.897" vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
+<line x1="160" y1="277.128" x2="180" y2="588.897" vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
+<line x1="180" y1="588.897" x2="100" y2="715.914" vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
+<line x1="620" y1="588.897" x2="700" y2="715.914" vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
+<line x1="700" y1="715.914" x2="400" y2="715.914" vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
+<line x1="100" y1="715.914" x2="400" y2="715.914" vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
+</g></svg>
